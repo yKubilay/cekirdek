@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const { runAutomation } = require('./index');
 
 const app = express();
-const port = process.env.PORT || 3000; // Use the PORT environment variable or default to 3000
+const port = 3000; // Use the PORT environment variable or default to 3000
 
 app.use(bodyParser.json());
 

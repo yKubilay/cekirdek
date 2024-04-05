@@ -2,6 +2,11 @@
   "dependencies": {
     "express": "^4.19.2",
     "ngrok": "^5.0.0-beta.2",
+    "public": "^0.1.5",
     "selenium-webdriver": "^4.19.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm install --output public"
   }
 }
